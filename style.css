@@ -1,0 +1,50 @@
+* {
+    border: 1px solid black;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 15vh;
+}
+
+.rubric {
+    height: 10vh;
+}
+
+.rules {
+    height: 10vh;
+}
+
+.weapons {
+    height: 20vh;
+}
+
+.ui {
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.message {
+    height: 20vh;
+}
+
+.footer {
+    height: 5vh;
+}
