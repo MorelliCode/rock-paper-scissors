@@ -1,12 +1,14 @@
 * {
-    border: 1px solid black;
+    //border: 1px solid white;
     text-align: center;
     box-sizing: border-box;
+    color: white;
 }
 
 body, html {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -22,37 +24,81 @@ div {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .header {
     height: 15vh;
+    font-size: 3em;
+    background-color: #310750;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    background-color: #0c0750;
+}
+
+.instructions div {
+    height: 5vh;
 }
 
 .rubric {
-    height: 10vh;
+    
 }
 
+
 .rules {
-    height: 10vh;
+    
 }
 
 .weapons {
-    height: 15vh;
+    height: 20vh;
+    gap: 1.5em;
+    background-color: #072750;
+}
+
+.weapons button {
+    font-size: 5em;
+    width: 1.2em;
+    background-color: #072750;
+    border-radius: 20px;
+
 }
 
 .ui {
     display: flex;
     justify-content: space-evenly;
     flex: 1;
+    font-size: 6em;
+    background-color: #0c0750;
 }
 
 
+
+.player {
+    height: 12vh;
+    width: 12vh;
+}
+
+.pc {
+    height: 12vh;
+    width: 12vh;
+}
+
+.score {
+    font-size: 24px;
+}
 
 
 .message {
     height: 15vh;
+    font-size: 3em;
+    background-color: #072750;
 }
 
 .footer {
     height: 5vh;
+    background-color: #0c0750;
 }
