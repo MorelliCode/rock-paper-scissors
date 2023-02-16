@@ -1,19 +1,27 @@
 * {
     border: 1px solid black;
     text-align: center;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 div {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .header {
@@ -29,20 +37,20 @@ div {
 }
 
 .weapons {
-    height: 20vh;
+    height: 15vh;
 }
 
 .ui {
-    height: 20vh;
     display: flex;
     justify-content: space-evenly;
+    flex: 1;
 }
 
 
 
 
 .message {
-    height: 20vh;
+    height: 15vh;
 }
 
 .footer {
