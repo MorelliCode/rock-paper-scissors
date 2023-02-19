@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="header">Rock Paper Scissors</div>    
@@ -14,14 +15,14 @@
         <div class="rules">First to win 5 rounds wins the game.</div>
     </div>
     <div class="weapons">
-        <button>✊</button>
-        <button>✋</button>
-        <button>✌</button>
+        <button id="rock">✊</button>
+        <button id="paper">✋</button>
+        <button id="scissors">✌</button>
     </div>
     <div class="ui">
         <div class="player score"> 
             <p>Score</p>
-            <p>0/5</p>
+            <p id="pcScore">0/5</p>
         </div>
         <div class="player thumbnail">🧑</div>
         <div class=" player selection">✋</div>
@@ -30,7 +31,7 @@
         <div class=" pc thumbnail">🤖</div>
         <div class=" pc score"> 
             <p>Score</p>
-            <p>0/5</p>
+            <p id="playerScore">0/5</p>
         </div>
     </div>
     <div class="message">You lose! Scissors beats Paper.</div>    
