@@ -112,7 +112,10 @@ function updateMessage(){
 }
 
 function updateScores(){
-    if(playerSelection === 'rock' && pcSelection === 'paper'){
+    if (playerSelection === pcSelection){
+        
+    }
+    else if(playerSelection === 'rock' && pcSelection === 'paper'){
         pcScore++;
     }
     else if(playerSelection === 'rock' && pcSelection === 'scissors'){
@@ -143,7 +146,7 @@ function checkGameEnd(){
         if ( playerScore === 5){
             message.textContent = "You win!";
         }
-        else {
+        else if ( pcScore === 5){
             message.textContent = "You lose!";
         } 
 
