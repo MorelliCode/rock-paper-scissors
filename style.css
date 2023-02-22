@@ -50,13 +50,14 @@ button:hover {
 .instructions {
     display: flex;
     flex-direction: column;
-    font-size: 2em;
+    font-size: 5vw;
     background-color: #0c0750;
+    padding: 10px;
 }
 
-.instructions div {
+/* .instructions div {
     height: 5vh;
-}
+} */
 
 .rubric {
     
@@ -78,7 +79,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5em;
+    font-size: 10vh;
     height: 1.5em;
     width: 1.5em;
     background-color: #0c0750;
@@ -89,7 +90,7 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     flex: 1;
-    font-size: 6em;
+    font-size: 6vw;
     background-color: #0c0750;
 }
 
@@ -110,7 +111,7 @@ button:hover {
 }
 
 .score {
-    font-size: 24px;
+    font-size: 3vw;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -119,8 +120,9 @@ button:hover {
 
 .message {
     flex-direction: column;
-    height: 15vh;
-    font-size: 3em;
+    /* height: 15vh; */
+    padding: 10px;
+    font-size: 7vh;
     background-color: #072750;
 }
 
@@ -135,4 +137,10 @@ button:hover {
 .footer {
     height: 5vh;
     background-color: #0c0750;
+}
+
+.footer img {
+    height: 1em;
+    width: auto;
+    margin-left: 5px;
 }
